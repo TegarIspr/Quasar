@@ -1,4 +1,4 @@
-# Quasar App (ta7)
+# Quasar App (first)
 
 A Quasar Framework app
 
