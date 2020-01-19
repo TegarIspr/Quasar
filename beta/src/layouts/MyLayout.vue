@@ -10,11 +10,12 @@
           icon="menu"
           aria-label="Menu"
         />
-
-        <q-toolbar-title>
-          The End
-        </q-toolbar-title>
       </q-toolbar>
+      <div class="q-px-lg q-pt-xl q-mb-md">
+        <div class="text-h3">Todo</div>
+        <div class="text-subtitle1">Definisi Kepepet</div>
+      </div>
+      <q-img src="statics/bg.jpg" class="header-image absolute-top" />
     </q-header>
 
     <q-drawer
@@ -124,3 +125,10 @@ export default {
   }
 };
 </script>
+
+<style lang="scss">
+.header-image {
+  height: 100%;
+  z-index: -1;
+}
+</style>
