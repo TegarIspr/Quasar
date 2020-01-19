@@ -1,4 +1,4 @@
-# Quasar App (first)
+# Quasar App (beta)
 
 A Quasar Framework app
 
