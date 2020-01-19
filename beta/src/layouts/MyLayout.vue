@@ -130,5 +130,6 @@ export default {
 .header-image {
   height: 100%;
   z-index: -1;
+  opacity: 1;
 }
 </style>
