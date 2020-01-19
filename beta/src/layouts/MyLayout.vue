@@ -115,6 +115,8 @@
 </template>
 
 <script>
+import { date } from "quasar";
+
 export default {
   name: "MyLayout",
 
@@ -122,6 +124,12 @@ export default {
     return {
       leftDrawerOpen: false
     };
+  },
+  computed: {
+    todaysDate() {
+      let timeStamp = Date.now();
+      return date.formatDate(timeStamp, "dddd D MMMM");
+    }
   }
 };
 </script>
